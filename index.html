@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Link generator for whatsapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/svg" sizes="72x72" href="images/favicon.ico">
+</head>
+<body>
+    <main>
+        <div class="container column">
+
+            <form id="formulario" class="column">
+                <h1>Link generator for Whatsapp</h1>
+                <input type="text" name="number" placeholder="Enter your Phone no." id="campo" />
+                
+                <textarea name="text" placeholder="Enter a message here" id="text" maxlength="23" ></textarea><br>
+                
+                <div id="result"></div>
+                
+                <input type="submit" value="Generate Link" id="generate">
+            </form>
+            <button id="copy">Copiar</button>
+            <a href="index.html">Generate new Link</a>
+            
+              <div class="info column">
+                  <h2>How it works</h2>
+                  <ul>
+                    <li><span>1</span>Enter Your Whatsapp number Ex. +91 1234567890 </li>
+                    <li><span>2</span>Type the default message that will be displayed</li>
+                    <li><span>3</span>Clic to <strong> GENERATE LINK</strong></li>
+                    <li><span>4</span>Copy the link and share</li>
+                    <li><span>5</span>Before using, take the test</li>
+                    <li>*All rights reserved to <strong>mahendra singh puniya</strong></li>
+                  </ul>
+              </div>
+
+        </div>
+    </main>
+    <!-- injecting the javascript -->
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
